@@ -19,12 +19,12 @@ class AboutMe:
 			                 "Test-driven Software Development", "Linux Distributions"]
 		}
 		
-	def  whoAmI(self):
+	def whoAmI(self):
 		print(" I am {}  {}!\n Studied at: {}\n Worked at: {}"
 			.format(self.name, self.surname, self.education, self.lastEmployment))
 		return
 		
-	def  getSkills(self):
+	def getSkills(self):
 		return self.skills
 		
 ```
