@@ -13,10 +13,10 @@ class AboutMe:
 		self.lastEmployment = "Havelsan Inc. - Software Engineer"
 		self.skills = {
 			"Coding":       ["Python", 'C', "C++", "SQL", "JavaScript", "PHP"],
-			"Framework": 	["PyTorch", "TensorFlow", "Qt", "Hadoop MapReduce", "MATLAB-Simulink"],
-			"Domain-based": ["Operating Systems Primitives and Multi-threaded System Programming",
-			                 "Embedded Programming on NXP FRDM-K64F", "Version Control Systems",
-			                 "Test-driven Software Development", "Linux Distributions"]
+			"Framework": 	["PyTorch", "TensorFlow", "Keras", "Qt", "jQuery", "Selenium"],
+			"Domain-based": ["ML Libraries", "O.S Fundamentals and Multi-threaded System Programming",
+			                 "Embedded Programming on NXP FRDM-K64F", "Version Control", "Containerization",
+			                 "Test-driven Development", "Linux Development Environments"]
 		}
 		
 	def getSummary(self):
